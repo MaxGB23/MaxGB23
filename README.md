@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Max González
+# ⚡ Max González Ballesteros
 
 ### Full-Stack Developer · AI-Assisted Tooling · Software Engineer
 
@@ -89,7 +89,7 @@ Developer tools powered by modern AI systems.
 
 Software that needs to work beyond the demo.
 
-* Vercel · Docker
+* Vercel · Docker · AWS
 * CI/CD
 * Authentication & RBAC
 * Business workflows
@@ -154,6 +154,7 @@ Designed around the idea that AI coding should be more than prompting a chatbot.
 
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![LLM APIs](https://img.shields.io/badge/LLM_APIs-5A67D8?style=for-the-badge)
 ![MCP](https://img.shields.io/badge/MCP-7C3AED?style=for-the-badge)
