@@ -132,6 +132,12 @@ Designed around the idea that AI coding should be more than prompting a chatbot.
 
 ---
 
+### 🧩 Also built
+
+[color-highlight-v2](https://github.com/MaxGB23/color-highlight-v2) — store-agnostic VS Code extension that highlights CSS/Web colors · [funky-theme](https://github.com/MaxGB23/funky-theme) — semantic dark VS Code theme · [ABMODEL](https://github.com/MaxGB23/ABMODEL) — Laravel + Vue PWA (Inertia admin, service worker)
+
+---
+
 ## 🛠️ Tech stack
 
 ### Languages & Frontend
