@@ -62,11 +62,15 @@ I'm an engineer in Virtual Environments and Digital Business who builds full-sta
 ![MCP](https://img.shields.io/badge/MCP-7C3AED?style=flat)
 ![Agent Workflows](https://img.shields.io/badge/Agent%20Workflows-0EA5E9?style=flat)
 
-## Featured project
+## Featured projects
 
 ### [funky-ai](https://github.com/MaxGB23/funky-ai)
 
 A CLI framework for AI-assisted development: a Spec-Driven Development pipeline with just-in-time context, file-based agent memory (funkygram), project planning (funky-forge), and dependency hardening (funky secure).
+
+### [Centro CAF Acámbaro](https://github.com/MaxGB23/centro-caf) — [site](https://centrocafacambaro.vercel.app)
+
+A production clinical management platform for a physiotherapy and rehabilitation center. Medical staff use it daily for patient scheduling, billing, and operational analytics. Built with Next.js, TypeScript, and PostgreSQL, deployed on Vercel.
 
 ## Education
 
