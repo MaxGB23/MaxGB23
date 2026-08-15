@@ -132,9 +132,16 @@ Designed around the idea that AI coding should be more than prompting a chatbot.
 
 ---
 
-### 🧩 Also built
+### 🧩 Other things I've built
 
-[color-highlight-v2](https://github.com/MaxGB23/color-highlight-v2) — store-agnostic VS Code extension that highlights CSS/Web colors · [funky-theme](https://github.com/MaxGB23/funky-theme) — semantic dark VS Code theme · [ABMODEL](https://github.com/MaxGB23/ABMODEL) — Laravel + Vue PWA (Inertia admin, service worker)
+**[funky-theme](https://github.com/MaxGB23/funky-theme)** `MIT`  
+A semantic dark VS Code theme built from scratch around **vibrant, readable colors** — because dark doesn't have to mean dull.  
+
+**[ABMODEL](https://github.com/MaxGB23/ABMODEL)**  
+A Laravel + Vue PWA using **Inertia.js, Laravel Breeze authentication, and a service worker** for an app-like web experience.
+
+**[color-highlight-v2](https://github.com/MaxGB23/color-highlight-v2)**  
+A **GPL-3.0 fork** of a VS Code color-highlighting extension, adapted and maintained to work independently of a specific VS Code extension store.
 
 ---
 
