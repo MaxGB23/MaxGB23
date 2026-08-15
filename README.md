@@ -7,7 +7,7 @@
 **Building software that turns ideas into systems.**
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maxgonzalezballesteros@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MaxGB23)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maxballesteros)
 
 </div>
 
@@ -16,8 +16,10 @@
 <div align="center">
 
 ```text
-PROPOSAL → SPEC → DESIGN → TASKS → APPLY → VERIFY → ARCHIVE
+IDEA → SPEC → BUILD → VERIFY → SHIP
 ```
+
+*Spec-first and test-gated: requirements before code, tests before merge, docs with every release.*
 
 </div>
 
@@ -41,46 +43,9 @@ I've built and shipped software used daily by **medical staff and local governme
 
 A CLI framework designed to make AI-assisted software development more structured, repeatable, and reliable.
 
-```text
-┌──────────────┐
-│   PROPOSAL   │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│     SPEC     │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│    DESIGN    │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│    TASKS     │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│    APPLY     │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│    VERIFY    │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│   ARCHIVE    │
-└──────────────┘
-```
-
-Each phase is delegated to an isolated sub-agent; the pipeline stops for human approval at Git operations.
-
-**Core ideas:**
-
-* 🧠 Spec-Driven Development
-* 🗂️ File-based agent memory with `funkygram`
-* 🔨 Project planning with `funky-forge`
-* 🔐 Dependency hardening with `funky secure`
-* 🤖 Agent workflows and LLM integrations
-* 🔌 MCP integrations
+| funky-ai | funkygram | funky-forge | funky secure |
+| --- | --- | --- | --- |
+| Spec-Driven Development pipeline: `proposal → spec → design → tasks → apply → verify → archive`, each phase delegated to an isolated sub-agent with human gates at Git operations | File-based agent memory (Markdown, no external DB) with on-demand rule injection | Project planning: `init` canvases, `assess` architecture review, `estimate` infrastructure costs | pnpm dependency hardening: `doctor` (diagnostics), `init` (policy), `check` (CI-ready gate) |
 
 [→ Explore funky-ai](https://github.com/MaxGB23/funky-ai)
 
@@ -96,10 +61,11 @@ Each phase is delegated to an isolated sub-agent; the pipeline stops for human a
 
 Web applications designed for real-world use.
 
-* React
 * Next.js
+* React
 * TypeScript
 * Node.js
+* PostgreSQL · Prisma
 * REST APIs
 
 </td>
@@ -113,9 +79,7 @@ Developer tools powered by modern AI systems.
 * LLM APIs
 * MCP
 * Agent workflows
-* AI automation
 * Context engineering
-* Developer tooling
 
 </td>
 
@@ -125,11 +89,9 @@ Developer tools powered by modern AI systems.
 
 Software that needs to work beyond the demo.
 
-* PostgreSQL
-* Cloud infrastructure
-* Docker
+* Vercel · Docker
 * CI/CD
-* Authentication
+* Authentication & RBAC
 * Business workflows
 
 </td>
@@ -172,36 +134,27 @@ Designed around the idea that AI coding should be more than prompting a chatbot.
 
 ## 🛠️ Tech stack
 
-### Languages
+### Languages & Frontend
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### Frontend
-
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-### Backend
+### Backend & Database
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![REST](https://img.shields.io/badge/REST-FF6C37?style=for-the-badge)
-
-### Database
-
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 
-### DevOps & Cloud
+### DevOps & AI
 
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-### AI
-
 ![LLM APIs](https://img.shields.io/badge/LLM_APIs-5A67D8?style=for-the-badge)
 ![MCP](https://img.shields.io/badge/MCP-7C3AED?style=for-the-badge)
 ![Agent Workflows](https://img.shields.io/badge/Agent_Workflows-0EA5E9?style=for-the-badge)
