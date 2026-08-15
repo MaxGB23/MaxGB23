@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Max González Ballesteros
+# Max González Ballesteros 👻
 
 ### Full-Stack Developer · AI-Assisted Tooling · Software Engineer
 
