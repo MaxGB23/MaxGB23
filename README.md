@@ -11,18 +11,6 @@
 
 </div>
 
-<br>
-
-<div align="center">
-
-```text
-IDEA → SPEC → BUILD → VERIFY → SHIP
-```
-
-*Spec-first and test-gated: requirements before code, tests before merge, docs with every release.*
-
-</div>
-
 ---
 
 ## 👋 About me
@@ -32,22 +20,6 @@ I'm an engineer in **Virtual Environments and Digital Business** focused on buil
 I like working at the intersection of **software engineering and AI** — turning LLMs, agents, APIs, and automation into tools that are actually useful in real development workflows.
 
 I've built and shipped software used daily by **medical staff and local government**, and I'm currently building my own AI development tooling with `funky-ai`.
-
----
-
-## ⚡ Currently building
-
-### `funky-ai`
-
-**AI-assisted development infrastructure.**
-
-A CLI framework designed to make AI-assisted software development more structured, repeatable, and reliable.
-
-| funky-ai | funkygram | funky-forge | funky secure |
-| --- | --- | --- | --- |
-| Spec-Driven Development pipeline: `proposal → spec → design → tasks → apply → verify → archive`, each phase delegated to an isolated sub-agent with human gates at Git operations | File-based agent memory (Markdown, no external DB) with on-demand rule injection | Project planning: `init` canvases, `assess` architecture review, `estimate` infrastructure costs | pnpm dependency hardening: `doctor` (diagnostics), `init` (policy), `check` (CI-ready gate) |
-
-[→ Explore funky-ai](https://github.com/MaxGB23/funky-ai)
 
 ---
 
