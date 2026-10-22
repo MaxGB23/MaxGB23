@@ -6,8 +6,8 @@
 
 **Building software that turns ideas into systems.**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-6E56CF?style=for-the-badge&logo=vercel&logoColor=white)](https://max-gonzalez-ballesteros.vercel.app/)
-[![CV](https://img.shields.io/badge/CV-PDF-1F6FEB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://max-gonzalez-ballesteros.vercel.app/documents/Maximiliano_Gonzalez_AI_Engineer_Resume.pdf)
+[![Portfolio](https://img.shields.io/badge/Portfolio-6E56CF?style=for-the-badge&logo=vercel&logoColor=white)](https://max-gonzalez-ballesteros.vercel.app/)
+[![CV PDF](https://img.shields.io/badge/CV-1F6FEB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://max-gonzalez-ballesteros.vercel.app/documents/Maximiliano_Gonzalez_AI_Engineer_Resume.pdf)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maxgonzalezballesteros@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maxballesteros)
 
