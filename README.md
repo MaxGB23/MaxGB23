@@ -44,7 +44,7 @@ Screenshots and a per-project write-up for each of these live on the [portfolio]
 
 ## 🛠 Now
 
-`funky-forge` (in progress, not public yet): a portable skill pack plus a minimal CLI for planning a project and costing the work before a line of code exists.
+`funky-forge` (public repo, npm release pending): a portable skill pack plus a deterministic CLI that plans a project and costs the work before a line of code exists — four gated phases, one independent review each, and an approval hash that catches silent edits. **4 commands, 125 tests, zero dependencies.** ([code](https://github.com/MaxGB23/funky-forge))
 
 `funky-theme-tui` (release in progress): the same palette adapted for terminal coding agents - OpenCode, Pi and Claude Code - as two twin variants that differ only in the background layer.
 
