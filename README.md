@@ -6,10 +6,10 @@
 
 **Building software that turns ideas into systems.**
 
-[![Portfolio Live](https://img.shields.io/badge/Portfolio-Live-6E56CF?style=for-the-badge&labelColor=6E56CF)](https://max-gonzalez-ballesteros.vercel.app/)
-[![Resume PDF](https://img.shields.io/badge/Resume-PDF-1F6FEB?style=for-the-badge&labelColor=1F6FEB)](https://max-gonzalez-ballesteros.vercel.app/documents/Maximiliano_Gonzalez_AI_Engineer_Resume.pdf)
-[![Email me](https://img.shields.io/badge/Email-me-D14836?style=for-the-badge&labelColor=D14836)](mailto:maxgonzalezballesteros@gmail.com)
-[![LinkedIn maxballesteros](https://img.shields.io/badge/LinkedIn-maxballesteros-0A66C2?style=for-the-badge&labelColor=0A66C2)](https://www.linkedin.com/in/maxballesteros)
+[![Portfolio](https://img.shields.io/badge/Portfolio-6E56CF?style=for-the-badge&logo=vercel&logoColor=white)](https://max-gonzalez-ballesteros.vercel.app/)
+[![Resume](https://img.shields.io/badge/Resume-1F6FEB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://max-gonzalez-ballesteros.vercel.app/documents/Maximiliano_Gonzalez_AI_Engineer_Resume.pdf)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maxgonzalezballesteros@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maxballesteros)
 
 </div>
 
