@@ -6,10 +6,10 @@
 
 **Building software that turns ideas into systems.**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-6E56CF?style=for-the-badge&logo=vercel&logoColor=white)](https://max-gonzalez-ballesteros.vercel.app/)
-[![Resume](https://img.shields.io/badge/Resume-1F6FEB?style=for-the-badge&logo=libreoffice&logoColor=white)](https://max-gonzalez-ballesteros.vercel.app/documents/Maximiliano_Gonzalez_AI_Engineer_Resume.pdf)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maxgonzalezballesteros@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maxballesteros)
+<a href="https://max-gonzalez-ballesteros.vercel.app/"><img alt="Portfolio" src="https://raw.githubusercontent.com/MaxGB23/MaxGB23/main/assets/readme/portfolio.svg"></a>
+<a href="https://max-gonzalez-ballesteros.vercel.app/documents/Maximiliano_Gonzalez_AI_Engineer_Resume.pdf"><img alt="Resume" src="https://raw.githubusercontent.com/MaxGB23/MaxGB23/main/assets/readme/resume.svg"></a>
+<a href="mailto:maxgonzalezballesteros@gmail.com"><img alt="Email" src="https://raw.githubusercontent.com/MaxGB23/MaxGB23/main/assets/readme/email.svg"></a>
+<a href="https://www.linkedin.com/in/maxballesteros"><img alt="LinkedIn" src="https://raw.githubusercontent.com/MaxGB23/MaxGB23/main/assets/readme/linkedin.svg"></a>
 
 </div>
 
