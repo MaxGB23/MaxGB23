@@ -86,7 +86,7 @@ const BADGES = [
     file: 'open-vsx-downloads.svg',
     label: 'OPEN VSX',
     name: 'Open VSX',
-    color: '#6e56cf',
+    color: '#2b6cb0',
     url: 'https://open-vsx.org/api/MaxGB23/funky-theme-vscode',
     read: (json) => json.downloadCount,
   },
