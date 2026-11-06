@@ -46,7 +46,7 @@ const ICON_SIZE = 14;
 const ICON_GAP = 9;
 const HEIGHT = 28;
 const LABEL_COLOR = '#555555';
-const TEXT_COLOR = '#fff';
+const TEXT_COLOR = '#ffffff';
 const TEXT_FONT = 'Verdana,Geneva,DejaVu Sans,sans-serif';
 
 /** Icon glyphs on a 24x24 grid, drawn white. LinkedIn is pinned to the last
@@ -75,7 +75,7 @@ const BADGES = [
   {
     file: 'email.svg',
     name: 'Email',
-    segments: [{ text: 'EMAIL', color: '#d14836', icon: 'gmail' }],
+    segments: [{ text: 'EMAIL', color: '#cd4433', icon: 'gmail' }],
   },
   {
     file: 'linkedin.svg',
@@ -86,7 +86,7 @@ const BADGES = [
     file: 'open-vsx-downloads.svg',
     label: 'OPEN VSX',
     name: 'Open VSX',
-    color: '#97ca00',
+    color: '#6e56cf',
     url: 'https://open-vsx.org/api/MaxGB23/funky-theme-vscode',
     read: (json) => json.downloadCount,
   },
@@ -94,7 +94,7 @@ const BADGES = [
     file: 'zed-downloads.svg',
     label: 'ZED',
     name: 'Zed',
-    color: '#8b5cf6',
+    color: '#6e56cf',
     // Every entry of `data` repeats the extension total, so take the largest
     // instead of relying on array order.
     url: 'https://api.zed.dev/extensions/funky-theme',
@@ -104,6 +104,23 @@ const BADGES = [
         : undefined,
   },
 ];
+
+/** WCAG AA minimum for small text: the badge labels are 10px bold. */
+const MIN_CONTRAST = 4.5;
+
+const channelLuminance = (hex, offset) => {
+  const value = parseInt(hex.slice(offset, offset + 2), 16) / 255;
+  return value <= 0.03928 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4;
+};
+const relativeLuminance = (hex) =>
+  0.2126 * channelLuminance(hex, 1) +
+  0.7152 * channelLuminance(hex, 3) +
+  0.0722 * channelLuminance(hex, 5);
+
+function contrastRatio(colorA, colorB) {
+  const [lighter, darker] = [relativeLuminance(colorA), relativeLuminance(colorB)].sort((a, b) => b - a);
+  return (lighter + 0.05) / (darker + 0.05);
+}
 
 const round = (value) => Math.round(value * 100) / 100;
 const textWidth = (text) =>
@@ -117,6 +134,12 @@ function renderBadge(file, segments, ariaLabel) {
   let x = 0;
 
   for (const segment of segments) {
+    const ratio = contrastRatio(TEXT_COLOR, segment.color);
+    if (ratio < MIN_CONTRAST) {
+      throw new Error(
+        `${file}: text on ${segment.color} reaches only ${ratio.toFixed(2)}:1, below the ${MIN_CONTRAST}:1 minimum`,
+      );
+    }
     const width = round(iconBlock(segment) + textWidth(segment.text) + PADDING);
     rects.push(`<rect x="${round(x)}" width="${width}" height="${HEIGHT}" fill="${segment.color}"/>`);
 
