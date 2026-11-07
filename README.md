@@ -23,12 +23,23 @@ I work where **software engineering and AI** meet: LLMs, agents, CLIs and automa
 
 ---
 
-## 🚀 Selected work
+## 🚀 In production
 
-- **[CAF](https://centrocafacambaro.vercel.app)** - appointments, patients and payments for a physiotherapy and rehabilitation clinic, in production. **+10 months live, zero outages.** ([code](https://github.com/MaxGB23/centro-caf))
-- **Social Assistance Management** - digitized the whole social-assistance request workflow for a municipal government, legal documents included. **100% of the flow digital.** ([code](https://github.com/MaxGB23/Presidencia-Municipal-Acambaro))
+- **[CAF](https://centrocafacambaro.vercel.app)** - appointments, patients and payments for a physiotherapy and rehabilitation clinic, in production. **11 months live, zero downtime.** ([demo](https://github.com/MaxGB23/centro-caf))
+- **Social Assistance Management** - digitized the whole social-assistance request workflow for a municipal government, legal documents included. **100% of the flow digital.** ([demo](https://github.com/MaxGB23/Presidencia-Municipal-Acambaro))
+
+_Both are private applications; the repositories are public demo builds, not the production source._
+
+---
+
+## 🛠 Tools I publish
+
+_One idea under all four: the parts of building software that should be verifiable instead of trusted._
+
+- **[funky-secure](https://github.com/MaxGB23/funky-secure)** - the supply-chain auditor: a pnpm repository answers whether the machine that builds it is configured the way you decided, with the file and line each rule read and a plan you review before anything is applied. The attacks that matter now do not go after source code, they go after the chain that delivers it, and that chain is configuration nobody verifies. Zero dependencies, no network. On [npm](https://www.npmjs.com/package/funky-secure) with SLSA provenance.
+- **[funky-forge](https://github.com/MaxGB23/funky-forge)** - a portable skill pack plus a deterministic CLI that plans a project and costs the work before a line of code exists: four gated phases, one independent review each, and an approval hash that catches silent edits. The point is a price you can defend — every number traces back to a written artifact and a human decision. Zero runtime dependencies. On [npm](https://www.npmjs.com/package/funky-forge) with SLSA provenance.
 - **[funky-theme](https://github.com/MaxGB23/funky-theme)** - semantic dark theme for any VS Code-based editor and terminal: five variants derived from one hierarchical palette. Published on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=MaxGB23.funky-theme-vscode), [Open VSX](https://open-vsx.org/extension/MaxGB23/funky-theme-vscode), and [Zed Extensions](https://zed.dev/extensions/funky-theme) <a href="https://open-vsx.org/extension/MaxGB23/funky-theme-vscode"><img alt="Open VSX downloads" align="middle" src="https://max-gonzalez-ballesteros.vercel.app/badges/open-vsx.svg"></a> <a href="https://zed.dev/extensions/funky-theme"><img alt="Zed downloads" align="middle" src="https://max-gonzalez-ballesteros.vercel.app/badges/zed.svg"></a>
-- **[funky-ai](https://github.com/MaxGB23/funky-ai)** - a modular CLI to plan, build and harden projects with a repeatable process. **10 commands, 443 tests, 27 rules.**
+- **[funky-ai](https://github.com/MaxGB23/funky-ai)** - a spec-driven development framework with persistent memory: it installs the agentic rules, templates and planning steps I use, so a new repository starts from a written specification that survives the session instead of from the chat log.
 
 Screenshots and a per-project write-up for each of these live on the [portfolio](https://max-gonzalez-ballesteros.vercel.app/).
 
@@ -42,10 +53,8 @@ Screenshots and a per-project write-up for each of these live on the [portfolio]
 
 ---
 
-## 🛠 Now
+## 🚧 Pre-release
 
-`funky-forge` (public repo, npm release pending): a portable skill pack plus a deterministic CLI that plans a project and costs the work before a line of code exists — four gated phases, one independent review each, and an approval hash that catches silent edits. **4 commands, 125 tests, zero dependencies.** ([code](https://github.com/MaxGB23/funky-forge))
-
-`funky-theme-tui` (release in progress): the same palette adapted for terminal coding agents - OpenCode, Pi and Claude Code - as two twin variants that differ only in the background layer.
+`funky-theme-tui` - the same palette adapted for terminal coding agents (OpenCode, Claude Code, Pi and Gentle Shell), as two twin variants that differ only in the background layer. Not on npm yet. ([code](https://github.com/MaxGB23/funky-theme-tui))
 
 📍 Acámbaro, Guanajuato, Mexico
