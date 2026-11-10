@@ -25,7 +25,7 @@ I work where **software engineering and AI** meet: LLMs, agents, CLIs and automa
 
 ## 🚀 In production
 
-- **[CAF](https://centrocafacambaro.vercel.app)** - appointments, patients and payments for a physiotherapy and rehabilitation clinic, in production, with no outages reported by the client. ([code](https://github.com/MaxGB23/centro-caf)) <img alt="CAF time in production" align="middle" src="https://max-gonzalez-ballesteros.vercel.app/badges/uptime.svg">
+- **CAF** - appointments, patients and payments for a physiotherapy and rehabilitation clinic, plus the clinic's public site, in production, with no outages reported by the client. ([site](https://centrocafacambaro.vercel.app), [demo](https://caf-usage-test.vercel.app/dashboard), [code](https://github.com/MaxGB23/centro-caf)) <a href="https://caf-usage-test.vercel.app/dashboard"><img alt="CAF time in production" align="middle" src="https://max-gonzalez-ballesteros.vercel.app/badges/uptime.svg"></a>
 - **Social Assistance Management** - digitized the whole social-assistance request workflow for a municipal government, legal documents included. **100% of the flow digital.** ([code](https://github.com/MaxGB23/Presidencia-Municipal-Acambaro))
 
 _Both are private applications; the repositories are public demo builds, not the production source._
